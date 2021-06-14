@@ -3,4 +3,9 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
-Como a internet funciona( conteudo da proxima aula)
+
+Coo a internet funciona( conteudo da proxima aula)
+=======
+- HTML
+- CSS
+
