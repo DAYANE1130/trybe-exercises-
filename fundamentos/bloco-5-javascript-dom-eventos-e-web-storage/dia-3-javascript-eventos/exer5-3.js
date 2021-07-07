@@ -25,7 +25,21 @@ function createDaysOfTheWeek() {
      listaDias.innerHTML=cadadia;
      
      diasmesli.appendChild(listaDias)
-     listaDias.classList.add('days');
+     listaDias.classList.add('day');
 
+      
+     if (cadadia===24 || cadadia===31){
+    
+       listaDias.classList.add('holiday')
+     }
+     if (cadadia===25){
+       listaDias.classList.add('friday')
+       listaDias.classList.add('holiday')
+     }
+      if(cadadia===18 || cadadia===11 || cadadia===18){
+        listaDias.classList.add('friday')
+      }
+
+     }
      
-   }
+   
